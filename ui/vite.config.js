@@ -1,0 +1,10 @@
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react(), tailwindcss()],
+  // Expose VITE_* and REACT_APP_* vars to import.meta.env (AWS / CRA-style naming).
+  envPrefix: ['VITE_', 'REACT_APP_'],
+})

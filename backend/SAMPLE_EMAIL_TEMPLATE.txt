@@ -1,0 +1,11 @@
+Subject: Your Prescription
+
+Dear {{patientName}},
+
+Please find your prescription attached as a PDF.
+
+Doctor: {{doctorName}}
+Reference ID: {{referenceId}}
+
+Please keep this Reference ID for future visits. This ID will remain the same for all your prescriptions.
+

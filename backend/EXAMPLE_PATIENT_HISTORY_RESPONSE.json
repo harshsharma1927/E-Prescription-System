@@ -1,0 +1,82 @@
+{
+  "status": "success",
+  "patient": {
+    "id": "665f2b0a4b2d9a001c9e1111",
+    "reference_id": "RX-20260320-A1B2C3D4E5F6",
+    "name": "Rahul Sharma"
+  },
+  "history": [
+    {
+      "prescription_id": "665f2d0a4b2d9a001c9e3333",
+      "created_at": "2026-03-20T12:34:56.000Z",
+      "notes": "Rest well and maintain hydration.",
+      "doctor": {
+        "id": "665f2c3a4b2d9a001c9e2222",
+        "name": "Dr. Asha Rao",
+        "email": "doctor@example.com",
+        "clinicName": "Rao Clinic",
+        "clinicAddress": "123 Main St",
+        "clinicPhone": "+911234567890"
+      },
+      "symptoms": [
+        {
+          "symptom_id": "665f2cbf4b2d9a001c9e2401",
+          "name": "Headache",
+          "category": "Neurology"
+        },
+        {
+          "symptom_id": "665f2cc14b2d9a001c9e2402",
+          "name": "Fever",
+          "category": "General"
+        }
+      ],
+      "medicines": [
+        {
+          "medicine_id": "665f2d3f4b2d9a001c9e4444",
+          "name": "Paracetamol",
+          "category": "Analgesic",
+          "dosage": "500 mg",
+          "frequency": "Twice daily",
+          "duration": "5 days",
+          "potency": "N/A",
+          "instructions": "After food",
+          "created_at": "2026-03-20T12:34:56.200Z"
+        }
+      ]
+    },
+    {
+      "prescription_id": "665f2e0a4b2d9a001c9e4444",
+      "created_at": "2026-02-18T09:10:11.000Z",
+      "notes": "Follow-up if symptoms persist.",
+      "doctor": {
+        "id": "665f2c3a4b2d9a001c9e2222",
+        "name": "Dr. Asha Rao",
+        "email": "doctor@example.com",
+        "clinicName": "Rao Clinic",
+        "clinicAddress": "123 Main St",
+        "clinicPhone": "+911234567890"
+      },
+      "symptoms": [
+        {
+          "symptom_id": "665f2cbf4b2d9a001c9e2401",
+          "name": "Headache",
+          "category": "Neurology"
+        }
+      ],
+      "medicines": [
+        {
+          "medicine_id": "665f2d3f4b2d9a001c9e4444",
+          "name": "Paracetamol",
+          "category": "Analgesic",
+          "dosage": "500 mg",
+          "frequency": "Once daily",
+          "duration": "3 days",
+          "potency": "N/A",
+          "instructions": "After food",
+          "created_at": "2026-02-18T09:10:11.200Z"
+        }
+      ]
+    }
+  ]
+}
+
