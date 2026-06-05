@@ -63,5 +63,4 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          # Placeholder for CI; set VITE_API_URL in Vercel project settings for production.
-          VITE_API_URL: https://placeholder.example.com/api
+          VITE_API_URL: https://e-prescript.onrender.com/api
